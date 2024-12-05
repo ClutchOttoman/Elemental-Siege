@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6027796086766274868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321763321417458415}
+  - component: {fileID: 464721931029495383}
+  - component: {fileID: 7584543196477035717}
+  - component: {fileID: 4178606448377104520}
+  - component: {fileID: 6887185633931690206}
+  - component: {fileID: 2466564782605028874}
+  - component: {fileID: 4169652134534030851}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1321763321417458415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027796086766274868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464721931029495383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027796086766274868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7afc9c9a59954ff47b4f192415ac7ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveToSpawn: {fileID: 650755021053716622, guid: 484313599b8492e4fa7a5b441baeb825, type: 3}
+  totalWaves: 10
+  stronghold: {fileID: 0}
+  waveRewardFactor: 5
+  waveAdaptationConstant: 0.5
+  baseWeights: 64000000640000006400000064000000
+  currentLevel: 0
+  levelDifficulties:
+  - 1
+  - 0.8
+  - 0.7
+  - 0.6
+  - 0.5
+--- !u!114 &7584543196477035717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027796086766274868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058ef72ad21cc094ca65327db20a09dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4178606448377104520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027796086766274868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0decac10a15b64247b230edeefb127d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerList:
+  - {fileID: 253871823781572472, guid: 8eac020e181466f499cbddd9a1d02e79, type: 3}
+  - {fileID: 6363546287321839402, guid: c8c40ee7c0d26a742b5680e2c4bd82c5, type: 3}
+  - {fileID: 5322658885853347813, guid: eff31ea50331bc044967b48097c317d2, type: 3}
+  - {fileID: 8537920843536169070, guid: 99b94018d1bb71f40845693dfbf43c1a, type: 3}
+  - {fileID: 8394192332485394142, guid: 6da8a152a7dece14999db2805373fe07, type: 3}
+  - {fileID: 839699365469603054, guid: a69b8aff33a4caa4a8f275f162606da6, type: 3}
+  - {fileID: 6363546287321839402, guid: 1908fa4f2831b0b4c8525b7fa616cb94, type: 3}
+  - {fileID: 6363546287321839402, guid: 5ac87da382ffbfc4599224142e02e5e4, type: 3}
+  - {fileID: 5322658885853347813, guid: 8ca709dd72ea3934297eccd09d20d180, type: 3}
+  - {fileID: 5322658885853347813, guid: e0693a7787f84bc4492e1f6b815119dc, type: 3}
+  - {fileID: 4485119621170318116, guid: 484d54abc70869445bcc6a8401f4075b, type: 3}
+  - {fileID: 8537920843536169070, guid: b326262ec15a68049b3a91bbfeaf5b6a, type: 3}
+  - {fileID: 8394192332485394142, guid: 2567470fe754df9479a40546cc1fe7f9, type: 3}
+  - {fileID: 8394192332485394142, guid: 45fbb61708eb31144a8a49a4aca570c2, type: 3}
+  UnplacedTowerList:
+  - {fileID: 1622685033806198278, guid: a0a3c20674f6c10418fecb809347c9e1, type: 3}
+  - {fileID: 1845251097919849496, guid: 14bba5dc8ac6e824da93cc0429531d0b, type: 3}
+  - {fileID: 6952397908081967599, guid: c8583dd74cefd3d4f925802e35aefd01, type: 3}
+  - {fileID: 1130794037784368354, guid: c143d6927358f9c40b206ee990de1825, type: 3}
+  - {fileID: 3561024575157222415, guid: 7c4b7ab350c4222498e1b7a708fd3031, type: 3}
+  - {fileID: 1044356652540694136, guid: 108cd714a4faa4d4995bc431e7ed716d, type: 3}
+  - {fileID: 6363546287321839402, guid: 64c3b9db4a4e4714a981e4431b0384be, type: 3}
+  - {fileID: 6363546287321839402, guid: 1d2f6253948fd02409da452478283e8a, type: 3}
+  - {fileID: 5322658885853347813, guid: f323374e64706cd47be9d524bb309e44, type: 3}
+  - {fileID: 5322658885853347813, guid: eadb9a6178cbb5149a5fe03add00cfd0, type: 3}
+  - {fileID: 4485119621170318116, guid: c103ae81d1ddef945af73f2eb686b27a, type: 3}
+  - {fileID: 8537920843536169070, guid: 33f296b0b44ed32459be608a7dede5fc, type: 3}
+  - {fileID: 8394192332485394142, guid: 7d5a3d22a4d77fb4cb7daa50478815da, type: 3}
+  - {fileID: 8394192332485394142, guid: 8e28e0ae6e12d77418042f6e01a30b20, type: 3}
+  towerCostList: fa000000fa000000fa000000fa000000ee020000e8030000f4010000ee020000f4010000ee020000f4010000e8030000ee020000f4010000
+--- !u!114 &6887185633931690206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027796086766274868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c348bd4776f47f14090aca000d9d6c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyList:
+  - {fileID: 7089503957143420906, guid: 48864055f0f54d4459216b2a196a722b, type: 3}
+  - {fileID: 3736571462960046852, guid: 4488fbe00cbcc064aaab03c66ac7551b, type: 3}
+  - {fileID: 4593352279148534925, guid: a8a0687a789057e4e9436c40ffd1acf2, type: 3}
+  - {fileID: -7073790334170928426, guid: 2880c939d59551441ae76d40292c9843, type: 3}
+  - {fileID: -5617083913344856121, guid: cff60f294894e5c4788f2a8ca49b6a99, type: 3}
+  EnemyHealthList:
+  - 30
+  - 40
+  - 100
+  - 30
+  - 60
+  stronghold: {fileID: 0}
+  isUI: 0
+--- !u!114 &2466564782605028874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027796086766274868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db9a83c35bd795b46b0b2ff5900268f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionStatus: 0
+--- !u!114 &4169652134534030851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027796086766274868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96505051218f3f94ea075f38b3d10d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayPlayerMoney: {fileID: 0}
+  displayCurrEnemyWave: {fileID: 0}
+  displayStrongholdHealth: {fileID: 0}
+  displayTileData: {fileID: 0}
+  displayEnemiesLeftInWave: {fileID: 0}
+  towerCostDisplayList: []

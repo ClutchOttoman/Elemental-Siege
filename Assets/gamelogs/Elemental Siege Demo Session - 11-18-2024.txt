@@ -1,0 +1,22 @@
+Elemental Siege Session - 11-18-2024 22:20:44 UTC
+
+
+
+Level name: Level2
+Money at start of level = 1000
+Money at end of level = 1000
+Level won = False
+Player survived 0 waves out of 10 total waves. 
+Number of towers placed total: 0
+Number of Bulwark Towers placed: 0
+Number of Banishment Towers placed: 0
+Number of Fireball Towers placed: 0
+Number of Whirlwind Towers placed: 0
+Number of Tidal Towers placed: 0
+Number of total spawned enemies: 19
+Number of total killed enemies: 19
+Number of spawned Aquatic enemies: 4. Number of them killed: 0
+Number of spawned Earth enemies: 4. Number of them killed: 0
+Number of spawned Energy enemies: 6. Number of them killed: 0
+Number of spawned Flight enemies: 5. Number of them killed: 0
+

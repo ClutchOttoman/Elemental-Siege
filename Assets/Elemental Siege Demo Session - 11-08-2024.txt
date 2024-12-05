@@ -1,0 +1,88 @@
+Elemental Siege Session - 11-08-2024 20:29:53 UTC
+
+
+
+Level name: Level1
+Money at start of level = 1000
+Money at end of level = 1360
+Level won = False
+Player survived 2 waves out of 10 total waves. 
+Number of towers placed total: 5
+Number of Bulwark Towers placed: 4
+Number of Banishment Towers placed: 0
+Number of Fireball Towers placed: 0
+Number of Whirlwind Towers placed: 1
+Number of Tidal Towers placed: 0
+Number of total spawned enemies: 24
+Number of total killed enemies: 24
+Number of spawned Aquatic enemies: 11. Number of them killed: 11
+Number of spawned Earth enemies: 6. Number of them killed: 6
+Number of spawned Energy enemies: 3. Number of them killed: 3
+Number of spawned Flight enemies: 4. Number of them killed: 2
+
+Elemental Siege Session - 11-08-2024 20:32:08 UTC
+
+
+
+Level name: Level1
+Money at start of level = 1000
+Money at end of level = 3554
+Level won = True
+Player survived 9 waves out of 10 total waves. 
+Number of towers placed total: 27
+Number of Bulwark Towers placed: 6
+Number of Banishment Towers placed: 4
+Number of Fireball Towers placed: 5
+Number of Whirlwind Towers placed: 7
+Number of Tidal Towers placed: 5
+Number of total spawned enemies: 262
+Number of total killed enemies: 262
+Number of spawned Aquatic enemies: 81. Number of them killed: 81
+Number of spawned Earth enemies: 57. Number of them killed: 57
+Number of spawned Energy enemies: 64. Number of them killed: 64
+Number of spawned Flight enemies: 60. Number of them killed: 60
+
+Elemental Siege Session - 11-08-2024 20:43:13 UTC
+
+
+
+Level name: Level2
+Money at start of level = 1000
+Money at end of level = 924
+Level won = False
+Player survived 2 waves out of 10 total waves. 
+Number of towers placed total: 7
+Number of Bulwark Towers placed: 4
+Number of Banishment Towers placed: 0
+Number of Fireball Towers placed: 2
+Number of Whirlwind Towers placed: 1
+Number of Tidal Towers placed: 0
+Number of total spawned enemies: 26
+Number of total killed enemies: 26
+Number of spawned Aquatic enemies: 4. Number of them killed: 4
+Number of spawned Earth enemies: 9. Number of them killed: 8
+Number of spawned Energy enemies: 8. Number of them killed: 7
+Number of spawned Flight enemies: 5. Number of them killed: 5
+
+Elemental Siege Session - 11-08-2024 20:45:49 UTC
+
+
+
+Level name: Title_Scene
+Money at start of level = 1000
+Money at end of level = 0
+Level won = False
+Player survived 0 waves out of 0 total waves. 
+Number of towers placed total: 0
+Number of Bulwark Towers placed: 0
+Number of Banishment Towers placed: 0
+Number of Fireball Towers placed: 0
+Number of Whirlwind Towers placed: 0
+Number of Tidal Towers placed: 0
+Number of total spawned enemies: 0
+Number of total killed enemies: 0
+Number of spawned Aquatic enemies: 0. Number of them killed: 0
+Number of spawned Earth enemies: 0. Number of them killed: 0
+Number of spawned Energy enemies: 0. Number of them killed: 0
+Number of spawned Flight enemies: 0. Number of them killed: 0
+

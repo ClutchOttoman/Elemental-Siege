@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Button text="Campaign" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Campaign_Button" style="width: 276px; background-color: rgb(44, 44, 44); color: rgb(224, 224, 224); -unity-text-outline-color: rgba(0, 0, 0, 0.59); align-items: center; justify-content: center; align-self: center; translate: 0 0;" />
+        <ui:Button text="Credits" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Credits_Button" style="width: 276px; background-color: rgb(44, 44, 44); color: rgb(224, 224, 224); -unity-text-outline-color: rgba(0, 0, 0, 0.59); align-items: center; justify-content: center; align-self: center; translate: 0 0;" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit_Button" style="width: 276px; background-color: rgb(44, 44, 44); color: rgb(224, 224, 224); -unity-text-outline-color: rgba(0, 0, 0, 0.59); align-items: center; justify-content: center; align-self: center; translate: 0 0;" />
+    </ui:VisualElement>
+</ui:UXML>
